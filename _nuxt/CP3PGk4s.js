@@ -1,0 +1,1 @@
+import{_ as t}from"./DCvkG5Vi.js";import{o as r,c as s}from"./DGIvrB3b.js";import"./B1lyFI3-.js";const e={__name:"whatsapp-redirect",setup:e=>(e,o)=>{const a=t;return r(),s(a,{type:"redirect"})}};export{e as default};

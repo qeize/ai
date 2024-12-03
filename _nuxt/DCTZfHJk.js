@@ -1,0 +1,1 @@
+import{_ as s}from"./DCvkG5Vi.js";import{o as t,c as a}from"./DGIvrB3b.js";import"./B1lyFI3-.js";const o={__name:"whatsapp-landing",setup:o=>(o,n)=>{const p=s;return t(),a(p,{type:"landing"})}};export{o as default};
