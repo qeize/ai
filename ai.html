@@ -193,15 +193,6 @@
             </div>
         </div>
 
-        <!-- Sidebar -->
-        <div id="sidebar" class="hidden fixed inset-0 bg-gray-800 bg-opacity-75 z-50 slide-in">
-            <div class="flex flex-col h-full p-4">
-                <button class="menu-option text-white text-left mb-4 text-lg font-medium p-2 rounded-lg" onclick="switchChat('gemini')">Gemini</button>
-                <button class="menu-option text-white text-left text-lg font-medium p-2 rounded-lg" onclick="switchChat('chatgpt')">ChatGPT</button>
-                <button class="menu-option text-white text-left text-lg font-medium p-2 rounded-lg mt-auto" onclick="closeSidebar()">Close</button>
-            </div>
-        </div>
-
         <!-- Chat Content -->
         <div id="chatContainer" class="flex-1 p-4 space-y-4 overflow-y-auto">
             <!-- Messages will be appended here -->
@@ -211,6 +202,15 @@
         <div class="bg-gray-800 p-4 flex items-center space-x-4">
             <input id="messageInput" type="text" placeholder="Type your message..." class="flex-1 bg-gray-700 p-2 rounded-lg text-white" onkeypress="handleKeyPress(event)">
             <i class="fas fa-paper-plane text-xl cursor-pointer send-button" onclick="sendMessage()"></i>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="hidden fixed inset-0 bg-gray-800 bg-opacity-75 z-50 slide-in">
+        <div class="flex flex-col h-full p-4">
+            <button class="menu-option text-white text-left mb-4 text-lg font-medium p-2 rounded-lg" onclick="switchChat('gemini')">Gemini</button>
+            <button class="menu-option text-white text-left text-lg font-medium p-2 rounded-lg" onclick="switchChat('chatgpt')">ChatGPT</button>
+            <button class="menu-option text-white text-left text-lg font-medium p-2 rounded-lg mt-auto" onclick="closeSidebar()">Close</button>
         </div>
     </div>
 </body>
